@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# [Ecole du Web]() - React - Modal Pop-up
+
+* click on the Open button to open the modal pop-up
+* click on the Close button of modal pop-up to close her
+* click outside modal pop-up to close her too
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

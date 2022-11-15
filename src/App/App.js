@@ -11,20 +11,21 @@ export default function App() {
     setToggle(!toggle)
   }
 
-  useEffect(() => {
-    window.addEventListener('click', closeOutside);
-
-    function closeOutside(e) {
-
-      if(e.path[0].className === 'containerModal')
-      {
-        modal();
-      }
+  const closeOutside = (e) => {
+    if(e.path[0].className === 'containerModal')
+    {
+      modal();
     }
+  }
 
+  useEffect(() => {
+     
+    window.addEventListener('click', closeOutside);
+    
     return () => {
       window.removeEventListener('click', closeOutside);
     }
+      
   }, []);
   
   return (

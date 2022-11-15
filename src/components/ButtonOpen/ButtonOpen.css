@@ -1,0 +1,32 @@
+.containerButtonOpen
+{
+    padding-top: 50px;
+}
+
+.containerButtonOpen button
+{
+    text-transform: uppercase;
+    margin-left: auto;
+    padding: 5px 10px;
+    border: 2px solid #000;
+    font-size: 1.5rem;
+    color: #000;
+    font-weight: bold;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.containerButtonOpen button span
+{
+    font-family: monospace;
+    filter: drop-shadow(0 0 1px #000);
+    -webkit-filter: drop-shadow(0 0 1px #000);
+}
+
+.containerButtonOpen button:active
+{
+    box-shadow: inset 0 0 5px #000;
+}
